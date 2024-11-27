@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+}
+body{
+    background-color:#FCFCF0;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    height: 100px;
+    background-color: #A1620F;
+    border-color: black;
+    border-style:groove;
+}
+ul{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 30px;
+    list-style: none;
+    align-items: center;
+    color: #FCFCF0;
+}
+.logo{
+    width: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 193px;
+    border-color: black;
+    border-right-color: black;
+}
+.titulo{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #A1620F;
+    font-size: 1.4rem;
+    margin-block: 90px;
+}
+span{
+    color: #A1620F;
+    font-size: 1.3rem;
+    padding-left: 20px;
+    
+}
+.bloco{
+   background-color: #A1620F;
+   width:300px;
+   height: 470px;
+   gap: 20px;
+   padding: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.bloco:hover{
+    scale: 1.1;
+}
+.lateralmaisv{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 600px;
+    overflow-x: scroll;
+    gap: 30px;
+}
+.bloco img{
+    width: 200px;
+    height: 300px;
+    background-color: #A1620F;
+}
+.lateralmaisv p:nth-child(2){
+    color: #FCFCF0;
+    font-size: 1.5rem;   
+}
+.lateralmaisv p:nth-child(3){
+    color: #FCFCF0;
+}
+.lateralmaisv p:nth-child(4){
+    color: #FCFCF0;
+    font-size: 1.5rem;
+}
+.arredondamento img{
+    width: 280px;
+    height: 280px;
+    border-radius: 200px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.arredondamento{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: #A1620F;
+}
+.arredondamento:hover{
+    scale: 1.1;
+}
+.top2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.autores{
+    margin-block: 40px;
+    color: #A1620F;
+    font-size: 1.3rem;
+    margin-top: 100px;
+}
